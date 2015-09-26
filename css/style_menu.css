@@ -1,0 +1,232 @@
+#pcm {
+	display: none;
+}
+
+ul.cssMenu ul {
+	display: none;
+}
+
+ul.cssMenu li:hover>ul {
+	display: block;
+}
+
+ul.cssMenu ul {
+	left: 98%;
+	position: absolute;
+	top: -1px;
+	z-index: 3;
+}
+
+ul.cssMenu ul ul {
+	left: 98%;
+	position: absolute;
+	top: -2px;
+	z-index: 3;
+}
+
+ul.cssMenu,ul.cssMenu ul {
+	/* background-color: #DCDCDC; */
+	border-style: solid;
+	border-width: 0;
+	list-style: none outside none;
+	margin: 1px;
+	padding: 0 1px 1px 0;
+}
+
+ul.cssMenu table {
+	border-collapse: collapse;
+}
+
+ul.cssMenu {
+	display: block;
+	float: left;
+}
+
+ul.cssMenu ul {
+	width: 200px;
+}
+
+ul.cssMenu li {
+	display: block;
+	font-size: 0;
+	margin: 1px 0 0 1px;
+}
+
+ul.cssMenu a:active,ul.cssMenu a:focus {
+	outline-style: none;
+}
+
+ul.cssMenu a,ul.cssMenu li.dis a:hover,ul.cssMenu li.sep a:hover {
+	background-color: #DCDCDC;
+	border-color: black;
+	border-style: solid;
+	border-width: 0;
+	color: black;
+	cursor: default;
+	display: block;
+	font: 15px Verdana;
+	align: center;
+	padding: 4px;
+	text-align: left;
+	text-decoration: none;
+	vertical-align: middle;
+	border-radius: 20px;
+}
+
+ul.cssMenu span {
+	overflow: hidden;
+}
+
+ul.cssMenu ul li {
+	float: none;
+}
+
+ul.cssMenu ul a {
+	text-align: left;
+	white-space: nowrap;
+}
+
+ul.cssMenu li.sep {
+	line-height: 0;
+	padding: 0;
+	text-align: left;
+}
+
+ul.cssMenu li.sep span {
+	background-image: none;
+	display: inline-block;
+	float: none;
+	padding-right: 0;
+	width: 100%;
+}
+
+ul.cssMenu li:hover {
+	position: relative;
+	z-index: 3;
+}
+
+ul.cssMenu li:hover>a {
+	background-color: #CFCFCF;
+	border-color: yellow;
+	border-style: solid;
+	color: green;
+	font: 15px Verdana;
+	align: center;
+	text-decoration: none;
+}
+
+ul.cssMenu li a:hover {
+	background-color: #CFCFCF;
+	border-color: yellow;
+	border-style: solid;
+	color: green;
+	font: 15px Verdana;
+	position: relative;
+	text-decoration: none;
+}
+
+ul.cssMenu li.dis a {
+	color: #AAAAAA !important;
+}
+
+ul.cssMenu a:hover ul,ul.cssMenu a:hover a:hover ul,ul.cssMenu a:hover a:hover a:hover ul
+	{
+	display: block;
+}
+
+ul.cssMenu a:hover ul ul,ul.cssMenu a:hover a:hover ul ul {
+	display: none;
+}
+
+ul.cssMenu span {
+	background-position: right center;
+	background-repeat: no-repeat;
+	display: block;
+	padding-right: 15px;
+}
+
+ul.cssMenu li:hover>a>span {
+	
+}
+
+ul.cssMenu a:hover span {
+	
+}
+
+ul.cssMenu ul span,ul.cssMenu a:hover table span {
+	
+}
+
+ul.cssMenu ul li:hover>a span {
+	
+}
+
+ul.cssMenu table a:hover span,ul.cssMenu table a:hover a:hover span,ul.cssMenu table a:hover a:hover a:hover span
+	{
+	
+}
+
+ul.cssMenu table a:hover table span,ul.cssMenu table a:hover a:hover table span
+	{
+	
+}
+
+.Padroniza_botao {
+	background-color: #DCDCDC;
+	width: 145px;
+	float: left;
+	height: 25px;
+	font-family: Verdana;
+	font-size: 15px;
+	color: black;
+	border-radius: 20px;
+}
+
+.Padroniza_botao:hover {
+	background-color: #CFCFCF;
+	width: 145px;
+	float: left;
+	height: 25px;
+	font-family: Verdana;
+	font-size: 15px;
+	color: green;
+	border-radius: 20px;
+}
+
+Padroniza_menu {
+	background-color: #DCDCDC;
+	width: 150px;
+	float: left;
+	height: 13px;
+	font-family: Verdana;
+	font-size: 13px;
+	color: black;
+}
+
+.arredonda {
+	border-radius: 20px;
+	border: 1px solid black;
+	margin-top: 1px;
+	padding-top: 1px;
+}
+
+body {
+	background-color: #DCDCDC;
+}
+
+.testando_b {
+	font: 13px Arial, Verdana, Helvetica, sans-serif;
+	color: #FFFFFF;
+	text-decoration: none;
+	background-color: #63B8FF;
+	text-align: center;
+	padding: 1px 5px;
+	margin-right: -1px;
+	border: 2px solid seashell;
+	border-radius: 12px;
+}
+
+.testando_b:hover {
+	color: black;
+	border: 1px solid #666666;
+}
